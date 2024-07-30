@@ -17,7 +17,7 @@
         String role = (String)session.getAttribute("role");
         welcomeMsg += userBean.getFirstName() + " (" + role + ")";
     } else {
-        welcomeMsg += "Guest";
+        welcomeMsg += "User"+"apoorva";
     }
 	%>
 
