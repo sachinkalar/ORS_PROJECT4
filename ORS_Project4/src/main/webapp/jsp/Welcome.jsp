@@ -14,9 +14,9 @@
 	<form action="<%=ORSView.WELCOME_CTL%>">
 	<%@ include file="Header.jsp"%>
 		<h1 align="Center">
-			<font size="10px" color="red">Welcome to ORS </font>
+			<font size="10px" color="red">Welcome to NCS </font>
 		</h1>
-
+//change done
 		<%
 		System.out.println("WelcomeView");
 			UserBean beanUserBean = (UserBean) session.getAttribute("user");
